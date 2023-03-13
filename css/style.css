@@ -1,0 +1,203 @@
+/* general */
+:root {
+    --backround-color: #ffffff;
+    --logo-color : #4D5AE5;
+    --address-future-text-color: #434455;
+    --future-title-color: #2E2F42;
+    --section-team-color: #E5E5E5;
+    --team-name-color: #2E2F42;
+    --team-text-color: #434455;
+    --footer-text-color: #E7E9FC;
+    --portfolio-title-color: #2E2F42;
+    --portfolio-text-color: #434455;
+    --navigation-link-color: #2E2F42;
+    --hero-title-color: #ffffff;
+}
+body {
+    background-color: var(--backround-color);
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color);
+}
+
+.studio-header {
+    color: #2E2F42;
+}
+
+.studio-footer{
+    color: #F4F4FD;
+}
+
+.navigation-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navigation-link-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+    color: #404BBF;
+}
+
+.address-link {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--address-future-text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404BBF;
+}
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--footer-text-color);
+}
+
+/* For index.html */
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--hero-title-color);
+}
+
+.button-studio {
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    font-weight: 500;
+    font-size: inherit;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.button-studio:hover,
+.button-studio:focus {
+    background-color: #404BBF;
+}
+
+.future-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--future-title-color);
+}
+
+.future-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--address-future-text-color);
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--future-title-color);
+}
+
+.taem {
+    background-color: var(--section-team-color);
+}
+
+.taem-item {
+    background-color: var(--backround-color);
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--team-name-color);
+}
+
+.team-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--team-text-color);
+}
+
+/* For portfolio.html */
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.button-portfolio {
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--portfolio-title-color);
+}
+
+.portfolio-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--portfolio-text-color);
+}
