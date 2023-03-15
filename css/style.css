@@ -12,8 +12,8 @@
     --portfolio-text-color: #434455;
     --navigation-link-color: #2E2F42;
     --hero-title-color: #ffffff;
+    --accent-color: #404BBF;
 }
-
 
 h1,h2,h3,p {
     margin-top: 0;
@@ -148,6 +148,10 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--footer-text-color);
+}
+
+.current {
+    color: var(--accent-color);
 }
 
 /* For index.html */
