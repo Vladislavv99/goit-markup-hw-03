@@ -34,7 +34,7 @@ img {
 
 body {
     background-color: var(--backround-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
 
@@ -76,7 +76,7 @@ button {
     padding-top: 24px;
     padding-bottom: 24px;
     margin-right: 76px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     line-height: 1.33;
     letter-spacing: 0.03em;
@@ -145,7 +145,7 @@ button {
 }
 
 .logo-fotter {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     line-height: 1.33;
     letter-spacing: 0.03em;
@@ -180,6 +180,10 @@ button {
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.section:nth-child(3) {
+    padding-top: 0;
 }
 
 .hero-title {
