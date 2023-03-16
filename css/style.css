@@ -80,6 +80,14 @@ a {
     color: var(--logo-color);
 }
 
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header-portfolio {
+    margin-bottom: 96px;
+}
+
 .studio-header {
     color: #2E2F42;
 }
@@ -319,7 +327,6 @@ a {
 }
 
 .nav-address-portfolio {
-    padding-bottom: 96px;
     display: flex;
 }
 
