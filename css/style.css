@@ -4,7 +4,7 @@
     --logo-color : #4D5AE5;
     --address-future-text-color: #434455;
     --future-title-color: #2E2F42;
-    --section-team-color: #E5E5E5;
+    --section-team-color: #F4F4FD;
     --team-name-color: #2E2F42;
     --team-text-color: #434455;
     --footer-text-color: #E7E9FC;
@@ -14,6 +14,7 @@
     --hero-title-color: #ffffff;
     --accent-color: #404BBF;
 }
+
 
 h1,h2,h3,p {
     margin-top: 0;
@@ -41,6 +42,10 @@ a {
     text-decoration: none;
 }
 
+button {
+    border: 0;
+}
+
 
 .container{
     margin: 0 auto;
@@ -55,12 +60,11 @@ a {
 
 .address {
     margin-left: auto;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .menu-nav {
     display: flex;
+    align-items: center;
 }
 
 .navigation {
@@ -84,8 +88,9 @@ a {
     border-bottom: 1px solid #E7E9FC;
 }
 
-.header-portfolio {
-    margin-bottom: 96px;
+.portfolio-info {
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .studio-header {
@@ -102,6 +107,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navigation-link-color);
+    display: block;
 }
 
 .navigation li {
@@ -123,6 +129,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-future-text-color);
+    display: block;
 }
 
 .address-link:hover,
@@ -132,7 +139,9 @@ a {
 
 .footer {
     background-color: #2E2F42;
-    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
 }
 
 .logo-fotter {
@@ -146,10 +155,7 @@ a {
     display: inline-block;
 }
 
-.footer-content {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+
 
 .footer-text {
     width: 264px;
@@ -164,20 +170,16 @@ a {
 
 /* For index.html */
 
-.futures {
-    margin-bottom: 120px;
-}
-
-.about {
-    margin-bottom: 120px;
-}
-
 .hero {
     margin: 0 auto;
     padding-top: 188px;
-    margin-bottom: 120px;
-    height: 600px;
+    padding-bottom: 188px;
     background-color: #2E2F42;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .hero-title {
@@ -195,22 +197,16 @@ a {
     padding: 16px 32px;
     margin: 0 auto;
     display: block;
-    min-width: 169px;
-    margin-bottom: 188px;
-
 
     background-color: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    
 
     font-weight: 500;
-    font-size: inherit;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
-    font-family: inherit;
 }
 
 .future-flex {
@@ -220,13 +216,16 @@ a {
     gap: 24px;
 }
 
+.future-flex-content {
+    width: 360px;
+}
+
 
 .future-flex-team {
     flex-wrap: wrap;
     align-items: center;
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
     margin-bottom: 0;
 }
 
@@ -267,7 +266,6 @@ a {
 }
 
 .section-title-team {
-    padding-top: 120px;
     margin-bottom: 72px;
     text-align: center;
     font-size: 36px;
@@ -288,10 +286,10 @@ a {
         0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     background-color: var(--backround-color);
+    width: 264px;
 }
 
 .team-item-text {
-    width: 232px;
     padding: 32px 16px;
     text-align: center;
 }
@@ -334,13 +332,13 @@ a {
     background-color: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    display: block;
 
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     cursor: pointer;
-    font-family: inherit;
     min-width: 64px;
     
     border: 1px solid #E7E9FC;
@@ -355,6 +353,10 @@ a {
 .button-portfolio:focus {
     background-color: #404BBF;
     color: #FFFFFF;
+}
+
+.portfolio-img {
+    width: 360px;
 }
 
 .portfolio-title {
@@ -374,13 +376,13 @@ a {
 
 .button-content {
     display: flex;
-    align-items: center;
-    margin-bottom: 72px;
 }
 
 .button-list {
     display: flex;
     margin: 0 auto;
+    align-items: center;
+    margin-bottom: 72px;
 }
 
 .button-list li {
@@ -402,15 +404,7 @@ a {
 
 .portfolio-content {
     display: flex;
-    margin: 0 auto;
-    padding-bottom: 120px;
-    justify-content: center;
-}
-
-.portfolio-content li {
-    margin-right: 24px;
-}
-
-.portfolio-content li:last-child {
-    margin-right: 0;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
 }
